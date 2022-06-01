@@ -1,0 +1,239 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    font-family: 'Amiri', serif;
+
+}
+
+body {
+    background-color: #fdfcee;
+}
+
+header {
+    background-color: rgb(63, 29, 29);
+    border-bottom: #000016 3px solid;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+.logo {
+    text-decoration: none;
+    color: rgb(253, 251, 251);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.59em;
+}
+
+.logo:hover {
+    color: rgb(255, 217, 0);
+}
+
+.navigation a {
+    text-decoration: none;
+    color: rgb(253, 251, 251);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.2em;
+    padding-left: 25px;
+}
+
+.navigation a:hover {
+    color: rgb(255, 217, 0);
+}
+
+section {
+    padding: 200px 0px;
+}
+
+p {
+    font-size: 40px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #000016;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 0%;
+    margin-top: 13%;
+}
+
+.footer-title {
+    font-size: 1em;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.footer-title span {
+    color: rgb(216, 140, 0);
+    text-align: center;
+}
+
+.footer .social-icons a {
+    font-size: 1.7em;
+    color: #ffffff;
+}
+
+.divdiv {
+    padding-right: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+
+
+
+
+@media (max-width:1023px) {
+    header {
+        height: 10%;
+        padding: 12px 30px;
+    }
+
+    .navigation a {
+        padding-right: 7px;
+    }
+
+    .card1 {
+        background-color: rgb(0, 68, 131);
+        width: 75%;
+        box-shadow: 0 3px 12px rgba(1, 1, 1, 0.479);
+        border-radius: 5px;
+        padding: 4px 0px;
+        margin: 15% 10% 10% 10%;
+        transition: 0.5s ease;
+        border-right: #ff9822 solid 50px;
+        border-right-style: inherit;
+        color: #000016;
+        font-size: 1.8em;
+    }
+
+
+    .card1:hover {
+        border-right-style: none;
+    }
+
+    hr {
+        border: #fdfcee solid 3px;
+
+    }
+
+    .card2 {
+        background-color: rgb(0, 68, 131);
+        width: 50%;
+        box-shadow: 0 3px 12px rgba(1, 1, 1, 0.479);
+        border-radius: 5px;
+        padding: 4px 0px;
+        margin: 5% 10% 15% 10%;
+        transition: 0.5s ease;
+        border-left: #ff9822 solid 30px;
+        border-left-style: inherit;
+        font-size: 1.2em;
+    }
+
+
+    .card2:hover {
+        border-left-style: none;
+    }
+
+    .footer {
+        margin-top: 100%;
+        height: 10%;
+    }
+
+
+
+
+
+}
+
+@media (max-width:641px) {
+
+    header {
+        padding: 6px 15px;
+    }
+
+    .navigation a {
+        padding-right: 4px;
+    }
+
+    .card1 {
+        background-color: rgb(0, 68, 131);
+        width: 75%;
+        box-shadow: 0 3px 12px rgba(1, 1, 1, 0.479);
+        border-radius: 5px;
+        padding: 4px 0px;
+        margin: 15% 10% 10% 10%;
+        transition: 0.5s ease;
+        border-right: #ff9822 solid 50px;
+        border-right-style: inherit;
+        color: #000016;
+        font-size: 1.8em;
+    }
+
+
+    .card1:hover {
+        border-right-style: none;
+    }
+
+    hr {
+        border: #fdfcee solid 3px;
+
+    }
+
+    .card2 {
+        background-color: rgb(0, 68, 131);
+        width: 50%;
+        box-shadow: 0 3px 12px rgba(1, 1, 1, 0.479);
+        border-radius: 5px;
+        padding: 4px 0px;
+        margin: 5% 10% 15% 10%;
+        transition: 0.5s ease;
+        border-left: #ff9822 solid 30px;
+        border-left-style: inherit;
+        font-size: 1.2em;
+    }
+
+
+    .card2:hover {
+        border-left-style: none;
+    }
+
+    .footer {
+        margin-top: 100%;
+        height: 10%;
+    }
+
+}
+
+@media (max-width:300px) {
+    header {
+        padding: 5px 10px;
+    }
+
+    .navigation a {
+        padding-right: 3px;
+    }
+
+    .card1 {
+        width: 7em;
+    }
+
+    .card2 {
+        width: 7em;
+    }
+}

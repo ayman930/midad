@@ -1,0 +1,219 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    font-family: 'Amiri', serif;
+}
+
+body {
+    background-color: #ebeadb;
+}
+
+header {
+    background-color: rgb(54, 16, 16);
+    border-bottom: #000016 3px solid;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+.logo {
+    text-decoration: none;
+    color: rgb(253, 251, 251);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.59em;
+}
+
+.logo:hover {
+    color: rgb(255, 217, 0);
+}
+
+.navigation a {
+    text-decoration: none;
+    color: rgb(253, 251, 251);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.2em;
+    padding-left: 25px;
+}
+
+.navigation a:hover {
+    color: rgb(255, 217, 0);
+}
+
+section {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.toptop {
+    margin-top: 60px;
+}
+
+.bottonn {
+    margin-bottom: 50px;
+
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+hr {
+    color: #ebeadb;
+    border: solid 4px;
+}
+
+.hor {
+    color: #000000;
+    border: 2px;
+}
+
+.satr {
+    text-align: center;
+    font-size: 2em;
+    color: #000016;
+    font-weight: 900;
+}
+
+.card {
+    background-color: rgb(83, 33, 33);
+    border: none;
+    width: 17em;
+    height: 12em;
+    border-radius: 10px;
+    padding: 0px 0px 0px 0px;
+    margin: 10px;
+    transition: 0.01s ease;
+}
+
+.qesm {
+    text-align: right;
+    font-size: 0.8em;
+    padding-right: 40px;
+}
+
+.qaa {
+    font-size: 0.8em;
+    text-align: center;
+    display: block;
+    color: rgb(255, 255, 255);
+}
+
+.qaa:hover {
+    color: rgb(17, 148, 39);
+
+}
+
+div div h1 {
+    background-color: rgba(60, 255, 0, 0.664);
+    border-radius: 8px 8px 0 0;
+    color: #fff;
+
+}
+
+
+.yelo {
+    background-color: rgba(255, 217, 0, 0.664);
+    color: #fff;
+}
+
+.bort {
+    background-color: rgba(16, 128, 109, 0.719);
+    color: #fff;
+
+}
+
+.info {
+    text-align: center;
+    color: #000000;
+}
+
+.info h1 {
+    font-size: 1.6em;
+    font-weight: 900;
+}
+
+
+.info p {
+    font-size: 1.3em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.talem {
+    font-size: 15px;
+    text-align: center;
+    color: darkred;
+}
+
+.boint {
+    background-color: rgb(255, 255, 255);
+    border: rgb(0, 0, 0) solid 2px;
+    width: 0.7em;
+    border-radius: 10px;
+    padding: 1px;
+    padding-bottom: 0%;
+    margin: 4px;
+    transition: 0.4s ease;
+}
+
+.footer {
+    background-color: #000016;
+    color: #fff;
+    padding: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.footer-title {
+    font-size: 1em;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.footer-title span {
+    color: rgb(216, 140, 0);
+    text-align: center;
+}
+
+.footer .social-icons a {
+    font-size: 1.7em;
+    color: #ffffff;
+    text-align: right;
+}
+
+@media (max-width:1023px) {
+    .card {
+        background-color: rgb(83, 33, 33);
+        border: none;
+        width: 13em;
+        border-radius: 10px;
+        padding: 0px 0px 0px 0px;
+        margin: 5px;
+        transition: 0.01s ease;
+    }
+}
+
+@media (max-width:500px) {
+    header {
+        width: 100%;
+        height: 8%;
+        align-items: center;
+        padding: 10px 50px;
+    }
+}

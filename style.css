@@ -1,0 +1,565 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    font-family: 'Amiri', serif;
+
+}
+
+body {
+    background-color: #ebeadb;
+}
+
+header {
+    background-color: rgb(63, 29, 29);
+    border-bottom: #000016 3px solid;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+.logo {
+    text-decoration: none;
+    color: rgb(253, 251, 251);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.59em;
+}
+
+.logo:hover {
+    color: rgb(255, 217, 0);
+}
+
+.navigation a {
+    text-decoration: none;
+    color: rgb(253, 251, 251);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.2em;
+    padding-left: 25px;
+}
+
+.navigation a:hover {
+    color: rgb(255, 217, 0);
+}
+
+section {
+    padding: 80px 0px 0px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cards {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+a {
+    color: #080808;
+}
+
+.card1 {
+    width: 40%;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 0.349);
+    border-radius: 10px;
+    padding: 8px 0px;
+    margin: 10px 40px 0px 20px;
+    transition: 0.5s ease;
+    color: #000016;
+    font-size: 1.3em;
+    background-color: rgb(255, 255, 255);
+}
+
+hr {
+    background-color: #000016;
+    border: #080808 solid 1.5px;
+    padding: 0%;
+}
+
+
+.card2 {
+    width: 40%;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 0.349);
+    border-radius: 10px;
+    padding: 8px 0px;
+    margin: 10px 20px 0px 40px;
+    transition: 0.5s ease;
+    color: #000016;
+    font-size: 1.3em;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.card2:hover {
+    color: #000016;
+
+}
+
+.info {
+    text-align: center;
+    cursor: pointer;
+}
+
+.info:hover {
+    color: rgb(102, 14, 14);
+}
+
+.info h1 {
+    font-size: 2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+
+.info p {
+    font-weight: 700;
+    margin: 10px;
+}
+
+.divdiv {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.footer {
+    background-color: #000016;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.footer-title {
+    font-size: 1em;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.footer-title span {
+    color: rgb(216, 140, 0);
+    text-align: center;
+}
+
+.footer .social-icons a {
+    font-size: 1.7em;
+    color: #ffffff;
+}
+
+.divdiv {
+    padding-right: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.img {
+    background-color: #fdfcee;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 0.349);
+    border-radius: 80%;
+    width: 25%;
+    margin-right: 37.5%;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    padding: 0;
+    display: inline-block;
+}
+
+#kalam {
+    background-color: #fdfcee;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 0.349);
+    color: #000016;
+    width: 84%;
+    padding: 25px;
+    font-size: 23px;
+    text-align: center;
+    margin: 0;
+    margin-right: 8%;
+    margin-bottom: 120px;
+    margin-top: 40px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+@media (max-width:1023px) {
+    header {
+        height: 10%;
+        padding: 12px 30px;
+    }
+
+    .navigation a {
+        padding-right: 7px;
+    }
+
+    .card1 {
+        width: 40%;
+        box-shadow: 0 5px 25px rgba(1, 1, 1, 0.349);
+        border-radius: 10px;
+        padding: 8px 0px;
+        margin: 10px 30px 0px 20px;
+        transition: 0.5s ease;
+        color: #000016;
+        font-size: 1.3em;
+        background-color: rgb(255, 255, 255);
+    }
+
+
+    .card1:hover {
+        border-right-style: none;
+    }
+
+    hr {
+        border: #070707 solid 2px;
+
+    }
+
+    .card2 {
+        width: 40%;
+        box-shadow: 0 5px 25px rgba(1, 1, 1, 0.349);
+        border-radius: 10px;
+        padding: 8px 0px;
+        margin: 10px 20px 0px 30px;
+        transition: 0.5s ease;
+        color: #000016;
+        font-size: 1.3em;
+        background-color: rgb(255, 255, 255);
+    }
+
+
+    .card2:hover {
+        border-left-style: none;
+    }
+
+    .footer {
+        margin-top: 100%;
+        height: 10%;
+    }
+
+
+    .info h1 {
+        font-size: 1.5em;
+        font-weight: 700;
+        margin: 10px;
+    }
+
+    .info p {
+        font-size: 1em;
+        font-weight: 700;
+        margin: 10px;
+    }
+
+    #kalam {
+        background-color: #fdfcee;
+        box-shadow: 0 5px 25px rgba(1, 1, 1, 0.349);
+        color: #000016;
+        width: 84%;
+        padding: 20px;
+        font-size: 22px;
+        text-align: center;
+        margin: 0;
+        margin-right: 8%;
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+
+    .divdiv {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+}
+
+@media (max-width:600px) {
+    header {
+        height: 10%;
+        padding: 12px 30px;
+    }
+
+    .navigation a {
+        padding-right: 7px;
+    }
+
+    .card1 {
+        width: 35%;
+        box-shadow: 0 5px 25px rgba(1, 1, 1, 0.349);
+        border-radius: 10px;
+        padding: 8px 0px;
+        margin: 10px 25px 0px 15px;
+        transition: 0.5s ease;
+        color: #000016;
+        font-size: 1.3em;
+        background-color: rgb(255, 255, 255);
+    }
+
+
+    .card1:hover {
+        border-right-style: none;
+    }
+
+    hr {
+        border: #070707 solid 1px;
+
+    }
+
+    .card2 {
+        width: 35%;
+        box-shadow: 0 5px 25px rgba(1, 1, 1, 0.349);
+        border-radius: 10px;
+        padding: 8px 0px;
+        margin: 10px 15px 0px 25px;
+        transition: 0.5s ease;
+        color: #000016;
+        font-size: 1.3em;
+        background-color: rgb(255, 255, 255);
+    }
+
+
+    .card2:hover {
+        border-left-style: none;
+    }
+
+    .footer {
+        margin-top: 100%;
+        height: 10%;
+    }
+
+    .info h1 {
+        font-size: 1em;
+        font-weight: 700;
+        margin: 10px;
+    }
+
+    .info p {
+        font-size: 0.6em;
+        font-weight: 700;
+        margin: 10px;
+    }
+
+    #kalam {
+        background-color: #fdfcee;
+        box-shadow: 0 5px 25px rgba(1, 1, 1, 0.349);
+        color: #000016;
+        width: 84%;
+        padding: 20px;
+        font-size: 19px;
+        text-align: center;
+        margin: 0;
+        margin-right: 8%;
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+
+    .divdiv {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media (max-width:400px) {
+    header {
+        height: 10%;
+        padding: 12px 30px;
+    }
+
+    .navigation a {
+        padding-right: 7px;
+    }
+
+    .card1 {
+        width: 35%;
+        box-shadow: 0 5px 25px rgba(1, 1, 1, 0.349);
+        border-radius: 10px;
+        padding: 6px 0px;
+        margin: 5px 12px 0px 9px;
+        transition: 0.5s ease;
+        color: #000016;
+        font-size: 1.3em;
+        background-color: rgb(255, 255, 255);
+    }
+
+
+    .card1:hover {
+        border-right-style: none;
+    }
+
+    hr {
+        border: #070707 solid 1px;
+
+    }
+
+    .card2 {
+        width: 35%;
+        box-shadow: 0 5px 25px rgba(1, 1, 1, 0.349);
+        border-radius: 10px;
+        padding: 6px 0px;
+        margin: 5px 9px 0px 12px;
+        transition: 0.5s ease;
+        color: #000016;
+        font-size: 1.3em;
+        background-color: rgb(255, 255, 255);
+    }
+
+
+    .card2:hover {
+        border-left-style: none;
+    }
+
+    .footer {
+        margin-top: 100%;
+        height: 10%;
+    }
+
+    .info h1 {
+        font-size: 1em;
+        font-weight: 700;
+        margin: 10px;
+    }
+
+    .info p {
+        font-size: 0.6em;
+        font-weight: 700;
+        margin: 10px;
+    }
+
+    #kalam {
+        background-color: #fdfcee;
+        box-shadow: 0 5px 25px rgba(1, 1, 1, 0.349);
+        color: #000016;
+        width: 84%;
+        padding: 20px;
+        font-size: 15px;
+        text-align: center;
+        margin: 0;
+        margin-right: 8%;
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+
+}
+
+@media (max-width:300px) {
+    header {
+        background-color: rgb(63, 29, 29);
+        border-bottom: #000016 3px solid;
+        width: 100%;
+        height: 30px;
+        position: fixed;
+        z-index: 999;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 30px;
+    }
+
+    .logo {
+        text-decoration: none;
+        color: rgb(253, 251, 251);
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1em;
+    }
+
+
+    .navigation a {
+        text-decoration: none;
+        color: rgb(253, 251, 251);
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 0.8em;
+        padding-left: 15px;
+    }
+
+    .navigation a {
+        padding-right: 7px;
+    }
+
+    .card1 {
+        width: 35%;
+        box-shadow: 0 5px 25px rgba(1, 1, 1, 0.349);
+        border-radius: 10px;
+        padding: 6px 0px;
+        margin: 5px 12px 0px 9px;
+        transition: 0.5s ease;
+        color: #000016;
+        font-size: 1.3em;
+        background-color: rgb(255, 255, 255);
+    }
+
+
+    .card1:hover {
+        border-right-style: none;
+    }
+
+    hr {
+        border: #070707 solid 1px;
+
+    }
+
+    .card2 {
+        width: 35%;
+        box-shadow: 0 5px 25px rgba(1, 1, 1, 0.349);
+        border-radius: 10px;
+        padding: 6px 0px;
+        margin: 5px 9px 0px 12px;
+        transition: 0.5s ease;
+        color: #000016;
+        font-size: 1.3em;
+        background-color: rgb(255, 255, 255);
+    }
+
+
+    .card2:hover {
+        border-left-style: none;
+    }
+
+    .footer {
+        margin-top: 100%;
+        height: 10%;
+    }
+
+    .info h1 {
+        font-size: 0.6em;
+        font-weight: 700;
+        margin: 10px;
+    }
+
+    .info p {
+        font-size: 0.3em;
+        font-weight: 700;
+        margin: 10px;
+    }
+
+    #kalam {
+        background-color: #fdfcee;
+        box-shadow: 0 5px 25px rgba(1, 1, 1, 0.349);
+        color: #000016;
+        width: 84%;
+        padding: 20px;
+        font-size: 15px;
+        text-align: center;
+        margin: 0;
+        margin-right: 8%;
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+}
